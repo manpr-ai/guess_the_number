@@ -55,8 +55,7 @@ const game = () => {
       console.log("\n\n");
       // Game va relancer la partie
       game();
-    }
-    if (choice.toUpperCase() === "N") {
+    } else if (choice.toUpperCase() === "N") {
       console.log("Merci et à bientot !");
     } else {
       console.log("Invalid choice. Please enter O or N.");
