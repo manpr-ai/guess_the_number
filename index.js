@@ -16,7 +16,7 @@ const game = () => {
     return Math.floor(Math.random() * (max - min) + min);
   };
 
-  const targetNumber = getRandomNumber(1, 100);
+  const targetNumber = getRandomNumber(0, 100);
 
   const isValidNumber = (number) => {
     return !Number.isNaN(number) && number > 0 && number <= 100;
