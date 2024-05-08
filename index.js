@@ -78,8 +78,8 @@ const game = () => {
     }
   };
 
-  // Affichage du nombre cible pour les tests
-  console.log(targetNumber);
+  // Affichage du nombre cible pour les tests console.log(targetNumber);
+
   // Début du jeu
   playGuessingGame();
   // Redémarrage du jeu après la fin de la partie
