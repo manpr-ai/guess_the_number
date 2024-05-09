@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Name</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body class="d__flex">
+    <header class="header__container">
+      <h1 class="drop__shadow">Guess The Number</h1>
+    </header>
+    <main>
+      <div class="d__flex container__game drop__shadow border__radius">
+        <h2 class="padB__10 font__size__h2">Règles :</h2>
+        <div class="padB__10 container__rules">
+          <p class="padB__5">
+            1. Le système générera un nombre aléatoire entre 0 et 100.
+          </p>
+          <p class="padB__5">2. Votre tâche est de deviner ce nombre.</p>
+          <p class="padB__5">3. Entrez un nombre lorsque vous y êtes invité.</p>
+          <p class="padB__5">
+            4. Si votre supposition est trop haute ou trop basse, vous en serez
+            informé, et vous pourrez deviner à nouveau.
+          </p>
+          <p class="padB__5">
+            5. Le jeu continue jusqu'à ce que vous deviniez le bon nombre.
+          </p>
+        </div>
+        <label for="guessInput">Entrez un nombre :</label>
+        <input
+          class="border__style border__radius"
+          type="text"
+          id="guessInput"
+        />
+        <button class="border__style border__radius" id="guessButton">
+          Devinez !
+        </button>
+        <button class="border__style border__radius d-none" id="restartButton">
+          Rejouez !
+        </button>
+        <p class="padT__15" id="result"></p>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

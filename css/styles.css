@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Titan+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-background-body: #ffcfd2;
+  --color-h1: #9ebc9e;
+  --color-font: #553e4e;
+  --color-border: #553e4e;
+  --color-background-container: #ffffff;
+  --color-drop-shadow: #553e4e;
+  --color-btn: #9ebc9e;
+  --color-btn-font: #553e4e;
+  --color-btn-hover: #ffcfd2;
+
+  --font-family: "Titan One", sans-serif;
+  --font-family-secondary: "Montserrat", sans-serif;
+}
+
+/* BODY */
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: var(--font-family);
+  background-color: var(--color-background-body);
+}
+
+/* HEADER */
+.header__container {
+  font-size: 37px;
+  padding-bottom: 30px;
+  margin-top: 100px;
+  color: var(--color-h1);
+}
+
+/* CONTAINER MAIN */
+.container__game {
+  justify-content: center;
+  width: 700px;
+  padding: 25px;
+  background-color: var(--color-background-container);
+  color: var(--color-font);
+}
+/* CONTAINER RULES */
+.container__rules {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: justify;
+  width: 550px;
+}
+/* INPUT */
+input[type="text"] {
+  width: 50%;
+  margin: 15px 0px;
+  padding: 8px;
+}
+
+/* BOUTON */
+button {
+  padding: 10px 20px;
+  background-color: var(--color-btn);
+  color: var(--color-btn-font);
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--font-family-);
+}
+
+button:hover {
+  background-color: var(--color-btn-hover);
+}
+
+/* PADDING */
+.padB__10 {
+  padding-bottom: 10px;
+}
+.padB__5 {
+  padding-bottom: 5px;
+}
+.padT__15 {
+  padding-top: 15px;
+}
+
+/* BORDER */
+.border__style {
+  border: 1.5px solid var(--color-border);
+}
+.border__radius {
+  border-radius: 15px;
+}
+
+/* FONT */
+.font__size__h2 {
+  font-size: 25px;
+}
+
+/* DROP SHADOX */
+.drop__shadow {
+  filter: drop-shadow(3px 3px 3px var(--color-drop-shadow));
+}
+
+/* LAYOUT */
+.d__flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.d-none {
+  display: none;
+}
